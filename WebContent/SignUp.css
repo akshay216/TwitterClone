@@ -1,0 +1,131 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	background-image: url(signupimage.png);
+	background-repeat: no-repeat;
+}
+
+.member {
+	position: absolute;
+	top: 10%;
+	left: 40%;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.fname {
+	position: absolute;
+	top: 15%;
+	left: 30%;
+}
+
+.email {
+	position: absolute;
+	top: 25%;
+	left: 30%;
+}
+
+.uid {
+	position: absolute;
+	top: 35%;
+	left: 30%;
+}
+
+.pasw {
+	position: absolute;
+	top: 45%;
+	left: 30%;
+}
+
+.cpass {
+	position: absolute;
+	top: 55%;
+	left: 30%;
+}
+
+.ctext {
+	position: absolute;
+	top: 65%;
+	left: 30%;
+}
+
+.agree {
+	position: absolute;
+	top: 80%;
+	left: 40%;
+}
+
+.sub {
+	position: absolute;
+	top: 85%;
+	left: 45%;
+}
+
+}
+.fnamebox {
+	position: absolute;
+	top: 15%;
+	left: 45%;
+}
+
+.emailbox {
+	position: absolute;
+	top: 25%;
+	left: 45%;
+}
+
+.uidbox {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+}
+
+.paswbox {
+	position: absolute;
+	top: 45%;
+	left: 45%;
+}
+
+.cpassbox {
+	position: absolute;
+	top: 55%;
+	left: 45%;
+}
+
+.ctextbox {
+	position: absolute;
+	top: 65%;
+	left: 45%;
+}
+
+.edit {
+	position: absolute;
+	top: 15%;
+	left: 40%;
+	text-decoration: underline;
+	text-transform: uppercase;
+}
+
+.editfname {
+	position: absolute;
+	top: 25%;
+	left: 30%;
+}
+
+.editemail {
+	position: absolute;
+	top: 35%;
+	left: 30%;
+}
+
+.editfnamebox {
+	position: absolute;
+	top: 25%;
+	left: 45%;
+}
+
+.editemailbox {
+	position: absolute;
+	top: 35%;
+	left: 45%;
+}

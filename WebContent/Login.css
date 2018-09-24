@@ -1,0 +1,51 @@
+@CHARSET "ISO-8859-1";
+
+html,body {
+	background-image: url(myImage.jpg);
+	background-repeat: no-repeat;
+}
+
+/* Let's add some style to our fieldset & legend */
+.id {
+	position: absolute;
+	top: 20%;
+	left: 60%;
+}
+
+.head {
+	position: absolute;
+	left: 69%;
+	top: 10%;
+	text-transform: uppercase;
+}
+
+.pass {
+	position: absolute;
+	top: 30%;
+	left: 60%;
+}
+
+.log {
+	position: absolute;
+	top: 35%;
+	left: 70%
+}
+
+.idtext {
+	position: absolute;
+	top: 20%;
+	left: 70%;
+}
+
+.passtext {
+	position: absolute;
+	top: 30%;
+	left: 70%;
+}
+
+.hyper {
+	background-color: white;
+	position: absolute; top : 40%;
+	left: 70%;
+	top: 40%;
+}

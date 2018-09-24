@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<link rel="stylesheet" type="text/css" href="Login.css" />
+<title>Insert title here</title>
+<!-- This script is used to add validation -->
+<script type="text/javascript">
+	function validate(form) {
+		var user_Id = form.User_Id.value;
+		var password = form.Password.value;
+
+		if (user_Id.length === 0) {
+			alert("You must enter a username");
+			return false;
+		}
+		if (password.length === 0) {
+			alert("you must enter a passwrod");
+			return false;
+		}
+		return true;
+	}
+</script>
+
+</head>
+<body>
+
+	<form action="LoginServlet" onsubmit="return validate(this);">
+
+		<div class="head">
+			<font color="white">Login Twitter Clone</font>
+		</div>
+
+		<div class="id">
+			<font color="white">UserID</font>
+		</div>
+		<div class="idtext">
+			<INPUT type="text" name="userId">
+		</div>
+
+		<div class="pass">
+			<font color="white">Password</font>
+		</div>
+		<div class="passtext">
+			<INPUT type="password" name="password">
+		</div>
+		<div class="log">
+			<INPUT type="submit" name="LOGIN" value="LOGIN">
+		</div>
+		<div class="hyper">
+			<a href="Membership.html">New User? Sign Up </a>
+		</div>
+	</form>
+</body>
+
+</body>
+</html>

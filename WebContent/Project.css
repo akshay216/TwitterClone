@@ -1,0 +1,162 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	background-image: url(backgr.jpg);
+	background-repeat: repeat-y;
+}
+
+h2 {
+	font-size: large;
+	width: 30%;
+}
+
+.w {
+	margin-top: 2%;
+	padding-left: 60%;
+	background-color:
+}
+
+.h {
+	width: 50%;
+	margin-left: 17%;
+	margin-top: 2%;
+	font-size: large;
+	text-align: left;
+	font: bolder;
+}
+
+.text {
+	width: 15%;
+	margin-left: 25%;
+	margin-top: 1%;
+	float: left;
+}
+
+.u {
+	width: 17%;
+	margin-right: 50%;
+	margin-top: -5%;
+	margin-bottom: 0%;
+	float: left;
+}
+
+.update {
+	width: 5%;
+	margin-top: 1%;
+	margin-left: 75%;
+}
+
+.t {
+	width: 10%;
+	margin-left: 20%;
+	margin-top: 3%;
+	font-size: large;
+}
+
+.tw {
+	width: 15%;
+	margin-right: 52%;
+	margin-top: 1%;
+	float: right;
+}
+
+.f {
+	outline-style: dotted;
+	font-size: x-large;
+	width: 20%;
+	float: left;
+	margin-left: 200px;
+	margin-top: 00px;
+}
+
+.followtext {
+	outline-style: :dotted;
+	float: left;
+	text-transform: uppercase;
+	margin-top: 2%
+}
+
+mt1 {
+	font-size: 10;
+	margin-left: 20%;
+}
+
+.heading {
+	font-size: 40px;
+	text-transform: uppercase;
+	font-style: italic;
+	font: bolder;
+}
+
+.delete {
+	margin-top: 13%;
+}
+
+.font {
+	font-weight: bold;
+}
+
+.profiledetails {
+	float: left;
+	margin-right: 25%;
+	margin-left: 5%;
+}
+
+.hyper {
+	margin-right: 5%;
+}
+
+.followcount {
+	margin-top: 1%;
+	margin-left: 5%;
+	text-align: right;
+	margin-right: 5%;
+}
+
+.mydetails {
+	position: absolute;
+	top: 20%;
+	left: 7%;
+}
+
+.mytweets {
+	position: absolute;
+	top: 10%;
+	left: 38%;
+}
+
+.right {
+	position: absolute;
+	top: 20%;
+	left: 80%;
+}
+
+.delete {
+	position: absolute;
+	left: 2%;
+	top: 20%;
+}
+
+.details {
+	position: absolute;
+	top: 20%
+}
+
+.pro {
+	position: absolute;
+	top: 10%;
+}
+
+.edittweetbox {
+	position: absolute;
+	top: 10%;
+}
+
+.button {
+	position: absolute;
+	top: 30%;
+}
+
+.numberleft {
+	
+}
